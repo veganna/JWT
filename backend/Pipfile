@@ -1,0 +1,11 @@
+
+django 
+djangorestframework 
+djangorestframework-simplejwt 
+mysql-connector-python 
+django-cors-headers 
+tzdata 
+pyyaml
+uritemplate
+
+

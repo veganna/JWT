@@ -1,0 +1,56 @@
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background: white;
+
+  padding: 7.5rem 0.5rem;
+  padding-top: 5rem;
+  border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%
+}
+
+.loginHeader {
+  font-size: 2.5rem;
+
+  margin-bottom: 2.5rem;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-top: 0.25rem;
+  padding: 1rem;
+
+  font-size: 1.15rem;
+
+  text-align: left;
+}
+
+.inputField input {
+  width: 20rem;
+}
+
+.inputField select {
+  width: 20rem;
+  font-size: 1rem;
+
+  background-color: white;
+
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.loginButton {
+  background: #662C91;
+  color: white;
+  font-size: 1.35rem;
+  font-family: inherit;
+  padding: 0.25rem 5.5rem;
+  border-radius: 25px;
+
+  margin-top: 1.5rem;
+}
