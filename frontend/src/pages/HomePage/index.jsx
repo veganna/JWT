@@ -42,9 +42,11 @@ const HomePage = () => {
       </div>
       {user ?
         <div>
-          <Link to="/journal">
-            <h3>My Journal</h3>
-          </Link>
+          {user.role == "CLIENT" &&
+            <Link to="/journal">
+              <h3>My Journal</h3>
+            </Link>
+          }
           {user.role == "THERAPIST" &&
             <Link to="/therapist/dashboard">
               <h3>Therapist Dashboard</h3>
