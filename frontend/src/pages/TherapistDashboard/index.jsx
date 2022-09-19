@@ -31,7 +31,7 @@ const TherapistDashboard = () => {
                     <p>Description: {entry.description}</p>
                     <pre>Content: {entry.content}</pre>
                     <p>My Current Weather: {entry.weather}</p>
-                    <p>Mood: {entry.mood=="GOOD"?'':''}</p>
+                    <p>Mood: {entry.mood=="GOOD"?"😄":"😞"}</p>
                 </div>
             )
         }) : <p>No entries found</p>
